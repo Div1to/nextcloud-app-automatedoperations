@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>automatedoperations</id>
+	<name>Automated Operations</name>
+	<summary>event driven custome file process</summary>
+	<description>event driven custome file process</description>
+	<version>1.0.0</version>
+	<licence>AGPL-3.0-or-later</licence>
+	<author mail="se.eric.divito@outlook.com" homepage="">0xe3d5</author>
+	<namespace>AutomatedOperations</namespace>
+	<category>files</category>
+	<bugs>https://github.com/Div1to/nextcloud-app-automatedoperations/issues</bugs>
+	<dependencies>
+		<nextcloud min-version="31" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>automatedoperations</id>
+			<name>Automated Operations</name>
+			<route>automatedoperations.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
